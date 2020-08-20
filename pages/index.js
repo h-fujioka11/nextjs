@@ -47,7 +47,7 @@ const Home = (props) => {
                 <img src={"/img/works/akasaka/img01.png"} />
                 <img src={"/img/works/kioi/img01.png"} />
               </div>
-              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>WEBサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり、実装面も高水準で対応可能です。</p>
+              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>WEBサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり実装に関しても対応可能です。</p>
               <p style={Link_Style}>
                 <Link href={"/works"}>
                   <a>実績をみる</a>
@@ -110,6 +110,11 @@ const Home = (props) => {
           @media screen and(max-width:1100px) {
             padding: 24px 16px 40px;
             width: 100%;
+          }
+         }
+         .sectionWork .sectionArea__title {
+          @media screen and(min-width:1100px) {
+            padding-bottom: 16px;
           }
          }
          .sectionWork .sectionArea__inner--archive {
