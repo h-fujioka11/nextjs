@@ -94,7 +94,7 @@ body a {
     .a-header__logo {
       width: 40px;
       @include respond(sp) {
-        width: 160px;
+        width: 210px;
         @include center;
       }
     }
@@ -185,9 +185,9 @@ body a {
   }
   &__title {
     @include respond(sp) {
-      @include fts(18,24);
-      padding: 16px 8px;
-      background: #2D3E7E;
+      @include fts(16,24);
+      padding: 8px;
+      background: $secondarycolor;
       margin-bottom: 16px;
       font-weight: bold;
       color: #fff;

@@ -23,7 +23,7 @@ const Works = (props) => {
         <section className={"o-static"}>
           <Fade bottom cascade>
             <Flip bottom cascade>
-              <h1 className={"o-static__title"}>わたしについて</h1>
+              <h1 className={"o-static__title"}>自己紹介</h1>
             </Flip>
             <div className={"o-static__inner"}>
               <h2 className={"title"}>これまでのキャリアに関して</h2>
