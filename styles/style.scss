@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@import "foundation/reset";
+@import "foundation/variables";
+@import "foundation/mixin";
+@import "Molecules/flex";
+
+body {
+  background: #ffffff;
+  font-size: 16px;
+  line-height: 2.8;
+  text-align:  left;
+  font-family: yu-mincho-pr6n, sans-serif;
+  @include respond(sp) {
+    font-family: sans-serif;
+  }
+  font-style: normal;
+  color: #000;
+}
+body a {
+  color: $color-gray-3;
+}
+.a-header {
+  width: 100%;
+  @include respond(pc) {
+    width: $lg-device-width;
+    @include center;
+    @include flex-between;
+    padding: 80px 0;
+    align-items: center;
+    padding: 40px;
+  }
+  @include respond(sp) {
+    position: relative;
+    height: 70px;
+  }
+  &__logo {
+    width: 80px;
+    @include respond(sp) {
+      position: absolute;
+      left: 20px;
+      top: -11px;
+      width: 210px;
+    }
+  }
+  &__logo a {
+    display: block;
+    @include transition-opacity;
+  }
+  &__nav {
+    @include respond(sp) {
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: -100%;
+      background: #fff;
+      padding: 24px;
+      width: 100%;
+      height: 100%;
+      transition: all .4s;
+    }
+    &.is-open {
+      left: 0;
+    }
+  }
+  &__nav ul {
+    @include respond(sp) {
+      border-top: 1px solid $color-gray-e;
+      position: relative;
+      top: 80px;
+    }
+  }
+  &__nav li {
+    @include respond(pc) {
+      display: inline-block;
+      margin-left: 80px;
+      @include fts(18,24);
+    }
+    @include respond(sp) {
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid $color-gray-e;
+      font-weight: bold;
+    }
+  }
+  &__nav a {
+    color: $color-gray-3;
+    @include transition-color;
+  }
+  &--secondary {
+    padding: 32px 56px 0;
+    @include respond(sp) {
+      position: relative;
+    }
+    .a-header__logo {
+      width: 40px;
+      @include respond(sp) {
+        width: 160px;
+        @include center;
+      }
+    }
+  }
+  &__btn {
+    @include respond(pc) {
+      display: none;
+    }
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 28px;
+    height: 22px;
+    display: block;
+    cursor: pointer;
+    transition: all .2s ease-out;
+    @include center;
+    z-index: 3;
+    span  {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: $color-gray-3;
+      transition: all .2s ease-out;
+    }
+    span:first-of-type  {
+      top: 0;
+    }
+    span:nth-of-type(2)  {
+      top: 10px;
+    }
+    span:nth-of-type(3)  {
+      bottom: 0;
+    }
+    &:hover {
+      width: 36px;
+    }
+    &.is-open {
+      transform: rotate(45deg);
+      span {
+        &:nth-of-type(1) {
+          transform: rotate(0deg) translateY(8px);
+          top: 4px;
+        }
+        &:nth-of-type(2) {
+          opacity: 0;
+        }
+        &:nth-of-type(3) {
+          transform: rotate(-90deg) translateX(8px);
+        }
+      }
+    }
+  }
+}
+.a-btn {
+  background: $primarycolor;
+  line-height: 6rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+  display: block;
+  border-radius: 4px;
+  @include transition-opacity;
+  width: 100%;
+  &--secondary {
+    @extend .a-btn;
+    background: $color-gray-a1;
+  }
+  @include respond(sp) {
+    font-weight: bold;
+  }
+}
+.a-header + .o-static {
+  @include respond(sp) {
+    padding-top: 20px;
+  }
+}
+.a-header--secondary + .o-static {
+  @include respond(sp) {
+    padding-top: 40px;
+  }
+}
+.o-static {
+  padding-bottom: 80px;
+  @include respond(sp) {
+    padding-bottom: 40px;
+  }
+  &__title {
+    @include respond(sp) {
+      @include fts(18,24);
+      padding: 16px 8px;
+      background: #2D3E7E;
+      margin-bottom: 16px;
+      font-weight: bold;
+      color: #fff;
+    }
+    text-align: center;
+    @include respond(pc) {
+      @include fts(30,56);
+      padding: 40px 0;
+      margin-bottom: 32px;
+    }
+    position: relative;
+    font-family: sans-serif;
+    &:before,&:after {
+      @include respond(pc) {
+        position: absolute;
+        content: "";
+        background: $color-gray-3;
+        width: 40px;
+        height: 1px;
+        left: 50%;
+        margin-left: -20px;
+      }
+    }
+    &:before {
+      top: 0;
+    }
+    &:after {
+      bottom: 0;
+    }
+  }
+  &__inner {
+    width: $lg-device-width + 180;
+    @include center;
+    padding: 60px 0;
+    @include respond(sp) {
+      width: 100%;
+      padding: 24px;
+    }
+  }
+  &__inner .title {
+    @include fts(24,48);
+    @include respond(pc) {
+      padding-bottom: 16px;
+    }
+    @include respond(sp) {
+      @include fts(18,32);
+      margin-bottom: 8px;
+    }
+  }
+  &__inner p {
+    width: 700px;
+    @include fts(18,48);
+    margin-bottom: 32px;
+    @include respond(sp) {
+      width: 100%;
+      @include fts(16,40);
+      margin-bottom: 16px;
+    }
+  }
+  &__inner p:last-child {
+    margin-bottom: 0;
+  }
+  &__text li {
+    @include respond(sp) {
+      font-size: 1.6rem;
+      line-height: 1.6;
+      margin-bottom: 12px;
+      position: relative;
+    }
+  }
+}
+.js-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(54,74,85,0.6);
+  cursor: pointer;
+}
+.is-pc {
+  display: block;
+  @include respond(sp) {
+    display: none;
+  }
+}
+.is-sp {
+  display: block;
+  @include respond(pc) {
+    display: none;
+  }
+}
+

@@ -1,0 +1,46 @@
+.m-flex {
+  @include flex-start;
+  flex-wrap: nowrap;
+  max-width: 1260px;
+  position: relative;
+  @include center;
+  &--3 {
+    @extend .m-flex;
+    flex-wrap: wrap;
+    > * {
+      @include widtnPercent(1260,395);
+      margin-right: 2.86%;
+      margin-top: 40px;
+      &:nth-child(-n+3) {
+        margin-top: 0;
+      }
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+  &--4 {
+    @extend .m-flex;
+    flex-wrap: wrap;
+    @include respond(sp) {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+    * {
+      @include widtnPercent(1260,285);
+      margin-right: 3.174%;
+      margin-top: 40px;
+      &:nth-child(-n+4) {
+        margin-top: 0;
+      }
+      &:nth-of-type(4n) {
+        margin-right: 0;
+      }
+      @include respond(sp) {
+        min-width: 200px;
+      }
+    }
+  }
+}
