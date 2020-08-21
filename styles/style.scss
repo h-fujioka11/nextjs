@@ -31,15 +31,15 @@ body a {
   }
   @include respond(sp) {
     position: relative;
-    height: 70px;
   }
   &__logo {
     width: 80px;
     @include respond(sp) {
       position: absolute;
       left: 20px;
-      top: -11px;
-      width: 210px;
+      top: 20px;
+      width: 40px;
+      z-index: 100;
     }
   }
   &__logo a {
@@ -87,14 +87,15 @@ body a {
     @include transition-color;
   }
   &--secondary {
-    padding: 32px 56px 0;
+    @include respond(pc) {
+      padding: 32px 56px 0;
+    }
     @include respond(sp) {
       position: relative;
     }
     .a-header__logo {
       width: 40px;
       @include respond(sp) {
-        width: 210px;
         @include center;
       }
     }
@@ -170,14 +171,21 @@ body a {
 }
 .a-header + .o-static {
   @include respond(sp) {
-    padding-top: 20px;
+    padding-top: 118px;
   }
 }
 .a-header--secondary + .o-static {
   @include respond(sp) {
-    padding-top: 40px;
+    padding-top: 118px;
   }
 }
+
+.a-header + .js-loopSlider {
+  @include respond(sp) {
+    padding-top: 118px;
+  }
+}
+
 .o-static {
   padding-bottom: 80px;
   @include respond(sp) {
