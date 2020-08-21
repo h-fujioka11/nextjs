@@ -95,7 +95,7 @@ const Contact = (props) => {
             onSubmit={handleSubmit(onSubmit)}>
             <Container maxWidth={"md"}>
               <p style={{textAlign:"left", color: "#333", marginBottom: "24px", fontSize:"1.2rem", fontWeight: "bold"}}>入力内容は<span style={{color:"#ff0000"}}>すべて必須</span>です。</p>
-              <Grid container spacing={3}>
+              <Grid container spacing={2}>
                 <Grid item xs={12} className={classes.GridItem}>
                   <p className={classes.nameItem}>会社名・団体名<span className={classes.required}>（必須）</span></p>
                   <TextField
@@ -182,12 +182,12 @@ const Contact = (props) => {
                   <p className={classes.errorItem}>{errors.textname && errors.textname.type === "required" && "お問い合わせ内容入力は必須です"}</p>
                   <p className={classes.errorItem}>{errors.textname && errors.textname.type === "minLength" && "4文字以上の入力でお問い合わせください"}</p>
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={7}>
                   <button className={"a-btn"} type="submit">
                     送信する
                   </button>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                   <button className={"a-btn--secondary"} type="button" onClick={() => reset()}>
                     リセット
                   </button>
