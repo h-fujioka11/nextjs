@@ -27,8 +27,8 @@ const Home = (props) => {
         <div className={"sectionArea"}>
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
-              <h1 className={"sectionArea__title"}>UI設計の制作支援を​受託する個人事業主です</h1>
-              <p style={{marginBottom: "32px"}}>私は屋号名「藤岡造形デザイン」としてスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。WEBサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門性を生かしてサービスの中での理想の体験を設計・スタイリングしていきます。</p>
+              <h1 className={"sectionArea__title"}>UI設計・制作を​受託する個人事業主です</h1>
+              <p style={{marginBottom: "32px"}}>私はてスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門的な知識を生かしユーザーに提供するサービス中の理想の体験を設計・スタイリングしていきます。</p>
               <p style={Link_Style}>
                 <Link href={"/about"}>
                   <a>わたしについて</a>
@@ -47,7 +47,7 @@ const Home = (props) => {
                 <img src={"/img/works/akasaka/img01.png"} />
                 <img src={"/img/works/kioi/img01.png"} />
               </div>
-              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>WEBサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり実装に関しても対応可能です。</p>
+              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり実装に関しても幅広く対応可能です。</p>
               <p style={Link_Style}>
                 <Link href={"/works"}>
                   <a>実績をみる</a>

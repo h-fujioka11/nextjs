@@ -10,7 +10,7 @@ const Introduce = props => {
           <h1 className={"m-introduce__title"}>わたしについて</h1>
           <dl className={"m-introduce__item"}>
             <dt><img src={"/img/about/img01.png"} /></dt>
-            <dd>スタートアップ・Webサービス企業を中心としたクライアントの「UI/UX」「プロトタイプ制作」「フロントエンド実装」などの問題解決策の提供や、また、ウェブサイトの改善提案やPDCA運用支援を行い、お客さまのウェブを活用したビジネス活動をサポートいたします。</dd>
+            <dd>スタートアップ・ウェブサービス企業を中心としたクライアントの「UIデザイン」「プロトタイプ制作」「フロントエンド実装」を提供します。ウェブサイトの改善提案やPDCA運用支援を行い、お客さまのウェブを活用したビジネス活動をサポートいたします。</dd>
           </dl>
           <dl className={"m-introduce__table"}>
             <dt>屋号</dt>

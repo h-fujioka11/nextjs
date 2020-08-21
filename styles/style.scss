@@ -170,13 +170,11 @@ body a {
     padding-top: 140px;
   }
 }
-
 .a-header + .js-loopSlider {
   @include respond(sp) {
     padding-top: 72px;
   }
 }
-
 .o-static {
   padding-bottom: 80px;
   @include respond(sp) {
@@ -280,4 +278,3 @@ body a {
     display: none;
   }
 }
-
