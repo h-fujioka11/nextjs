@@ -42,7 +42,7 @@ const Works = (props) => {
             <div className={"o-static__inner"}>
               <h2 className={"title"}>これまでやってきたこと</h2>
               <p>直近のサービス運用・取引実績などの一部はこちらから参照ください。</p>
-              <p style={{color:"#518ba2",textDecoration:"underline"}}><Link href={"/works"}><a>実績をみる</a></Link>。</p>
+              <p style={{color:"#518ba2",textDecoration:"underline"}}><Link href={"/works"}><a>実績をみる</a></Link></p>
             </div>
           </Fade>
         </section>
