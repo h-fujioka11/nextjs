@@ -38,7 +38,7 @@ body a {
       position: absolute;
       left: 20px;
       top: 20px;
-      width: 40px;
+      width: 32px;
       z-index: 100;
     }
   }
@@ -94,9 +94,12 @@ body a {
       position: relative;
     }
     .a-header__logo {
-      width: 40px;
+      width: 30px;
       @include respond(sp) {
+        position: relative;
         @include center;
+        top: 16px;
+        left: 0;
       }
     }
   }
@@ -171,18 +174,18 @@ body a {
 }
 .a-header + .o-static {
   @include respond(sp) {
-    padding-top: 118px;
+    padding-top: 130px;
   }
 }
 .a-header--secondary + .o-static {
   @include respond(sp) {
-    padding-top: 118px;
+    //padding-top: 118px;
   }
 }
 
 .a-header + .js-loopSlider {
   @include respond(sp) {
-    padding-top: 118px;
+    padding-top: 80px;
   }
 }
 
