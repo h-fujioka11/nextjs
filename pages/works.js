@@ -30,10 +30,10 @@ const Akasaka = [
   "/img/works/akasaka/img04.png"
 ]
 const Kioi = [
-  "/img/works/Kioi/img01.png",
-  "/img/works/Kioi/img02.png",
-  "/img/works/Kioi/img03.png",
-  "/img/works/Kioi/img04.png"
+  "/img/works/kioi/img01.png",
+  "/img/works/kioi/img02.png",
+  "/img/works/kioi/img03.png",
+  "/img/works/kioi/img04.png"
 ]
 
 const Works = (props) => {
