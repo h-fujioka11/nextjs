@@ -24,8 +24,6 @@ class Heads extends Component {
         <meta property="og:image" content={this.props.image} />
         <meta property="og:site_name" content={this.props.title} />
         <link rel="canonical" href={this.props.url} />
-        <link rel="shortcut icon" href={'https://editioninc/favicon.ico'} />
-        <link rel="apple-touch-icon" href={'https://editioninc/logo.png'} />
       </Head>
     )
   }
