@@ -183,7 +183,7 @@ body a {
     @include respond(sp) {
       @include fts(16,24);
       padding: 8px;
-      background: $secondarycolor;
+      background: $primarycolor;
       margin-bottom: 16px;
       font-weight: bold;
       color: #fff;
