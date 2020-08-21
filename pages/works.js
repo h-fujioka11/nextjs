@@ -89,7 +89,19 @@ const Works = (props) => {
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
-              <h2 className={"title"} style={WorkTitle}>その他、過去の実績</h2>
+              <h2 className={"title"}>その他（公開準備中案件）</h2>
+              <p className={"text"}>other</p>
+              <div className={"m-flex--4"}>
+                <img src={"/img/works/parley01.png"}/>
+                <img src={"/img/works/parley02.png"}/>
+                <img src={"/img/works/parley03.png"}/>
+                <img src={"/img/works/parley04.png"}/>
+              </div>
+            </section>
+          </Fade>
+          <Fade bottom cascade>
+            <section className={"o-static__inner"}>
+              <h2 className={"title"} style={WorkTitle}>過去の実績</h2>
               <p className={"o-static__text"}>
                 表参道ヒルズ, 小田急SC, ジョンブル, ナイキジャパンSKU, 月間メンズアデランス, minx, nico and …Chice（チョイス), コールハーン, ロッテオンラインECサイト, 吉日屋ECサイト, スターバックスキャラメルフラペチーノカスタマイズ, エポスネット, 横浜アリーナ, アクアシティお台場, 横浜コンベンションビューロ etc
               </p>
