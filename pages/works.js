@@ -7,9 +7,35 @@ import Flip from 'react-reveal/Flip';
 import Conversation from "../components/Molecules/Conversation";
 import Introduce from "../components/Molecules/Introduce";
 import Heads from "../components/Atoms/Head";
+import WorkList from "../components/Atoms/WorkList";
 const WorkTitle = {
   marginBottom: "16px",
 }
+const Full = [
+  "/img/works/full/img01.png",
+  "/img/works/full/img02.png",
+  "/img/works/full/img03.png",
+  "/img/works/full/img04.png"
+]
+const Food = [
+  "/img/works/food/img01.png",
+  "/img/works/food/img02.png",
+  "/img/works/food/img03.png",
+  "/img/works/food/img04.png"
+]
+const Akasaka = [
+  "/img/works/akasaka/img01.png",
+  "/img/works/akasaka/img02.png",
+  "/img/works/akasaka/img03.png",
+  "/img/works/akasaka/img04.png"
+]
+const Kioi = [
+  "/img/works/Kioi/img01.png",
+  "/img/works/Kioi/img02.png",
+  "/img/works/Kioi/img03.png",
+  "/img/works/Kioi/img04.png"
+]
+
 const Works = (props) => {
   return (
     <div className="container">
@@ -43,48 +69,28 @@ const Works = (props) => {
             <section className={"o-static__inner"}>
               <h2 className={"title"}>フルスロットル</h2>
               <p className={"text"}>https://www.fullthrottle.co.jp/</p>
-              <div className={"m-flex--4"}>
-                <img src={"/img/works/full/img01.png"}/>
-                <img src={"/img/works/full/img02.png"}/>
-                <img src={"/img/works/full/img03.png"}/>
-                <img src={"/img/works/full/img04.png"}/>
-              </div>
+              <WorkList data={Full} />
             </section>
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
               <h2 className={"title"}>デリステーション</h2>
               <p className={"text"}>https://deli-station.jp/</p>
-              <div className={"m-flex--4"}>
-                <img src={"/img/works/food/img01.png"}/>
-                <img src={"/img/works/food/img02.png"}/>
-                <img src={"/img/works/food/img03.png"}/>
-                <img src={"/img/works/food/img04.png"}/>
-              </div>
+              <WorkList data={Food} />
             </section>
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
               <h2 className={"title"}>赤坂クラシックハウス</h2>
               <p className={"text"}>https://akasakaprince.com/</p>
-              <div className={"m-flex--4"}>
-                <img src={"/img/works/akasaka/img01.png"}/>
-                <img src={"/img/works/akasaka/img02.png"}/>
-                <img src={"/img/works/akasaka/img03.png"}/>
-                <img src={"/img/works/akasaka/img04.png"}/>
-              </div>
+              <WorkList data={Akasaka} />
             </section>
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
               <h2 className={"title"}>東京ガーデンテラス紀尾井町</h2>
               <p className={"text"}>https://www.tgt-kioicho.jp/residence/</p>
-              <div className={"m-flex--4"}>
-                <img src={"/img/works/kioi/img01.png"}/>
-                <img src={"/img/works/kioi/img02.png"}/>
-                <img src={"/img/works/kioi/img03.png"}/>
-                <img src={"/img/works/kioi/img04.png"}/>
-              </div>
+              <WorkList data={Kioi} />
             </section>
           </Fade>
           <Fade bottom cascade>

@@ -7,11 +7,18 @@ import Fade from 'react-reveal/Fade';
 import Link from "next/link";
 import "../styles/style.scss";
 import Heads from "../components/Atoms/Head";
-
+import WorkList from "../components/Atoms/WorkList";
 const Home = (props) => {
+
   const Link_Style = {
     textDecoration: "underline",
   }
+  const WorkData = [
+    "/img/works/full/img01.png",
+    "/img/works/food/img01.png",
+    "/img/works/akasaka/img01.png",
+    "/img/works/kioi/img01.png"
+  ]
   return (
     <div className="container">
       <Heads
@@ -41,11 +48,8 @@ const Home = (props) => {
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
               <h1 className={"sectionArea__title"}>これまでやってきたこと</h1>
-              <div className={"m-flex--4"}>
-                <img src={"/img/works/full/img01.png"} />
-                <img src={"/img/works/food/img01.png"} />
-                <img src={"/img/works/akasaka/img01.png"} />
-                <img src={"/img/works/kioi/img01.png"} />
+              <div className={"flexArea"}>
+                <WorkList data={WorkData} />
               </div>
               <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり実装に関しても幅広く対応可能です。</p>
               <p style={Link_Style}>
@@ -127,7 +131,7 @@ const Home = (props) => {
             border-top: 1px solid #ccc;
           }
          }
-         .m-flex--4 {
+         .flexArea {
            margin-bottom: 50px;
            @media screen and(max-width:1100px) {
              margin-bottom: 24px;
