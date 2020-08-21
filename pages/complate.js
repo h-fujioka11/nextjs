@@ -8,7 +8,7 @@ const Complate = (props) => {
   return (
     <div className="container">
       <Head>
-        <title>お問い合わせ完了 | UIデザイン | 藤岡造形デザイン</title>
+        <title>お問い合わせ完了 | UIデザイン</title>
       </Head>
       <main>
         <Header NotNavigation={true} />

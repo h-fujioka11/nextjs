@@ -77,8 +77,8 @@ const Contact = (props) => {
   return (
     <div className="container">
       <Heads
-        title={'お問い合わせ | UIデザイン | 藤岡造形デザイン'}
-        description={'藤岡造形デザインはデジタルサービスのUI画面の制作支援を​受託する個人事業主です'}
+        title={'お問い合わせ | UIデザイン'}
+        description={'デジタルサービスのUI画面の制作支援を​受託する個人事業主です'}
         keyword={'UIデザイン, ウェブデザイン'}
         image={'https://editioninc.tokyo/img.jpg'}
         url={'https://editioninc.tokyo/ontact'}

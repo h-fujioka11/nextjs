@@ -14,8 +14,8 @@ const Works = (props) => {
   return (
     <div className="container">
       <Heads
-        title={'これまでやってきたこと | UIデザイン | 藤岡造形デザイン'}
-        description={'藤岡造形デザインはデジタルサービスのUI画面の制作支援を​受託する個人事業主です'}
+        title={'これまでやってきたこと | UIデザイン'}
+        description={'デジタルサービスのUI画面の制作支援を​受託する個人事業主です'}
         keyword={'UIデザイン, ウェブデザイン'}
         image={'https://editioninc.tokyo/img.jpg'}
         url={'https://editioninc.tokyo/works'}
