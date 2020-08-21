@@ -33,7 +33,7 @@ body a {
     position: relative;
   }
   &__logo {
-    width: 80px;
+    width: 70px;
     @include respond(sp) {
       position: absolute;
       left: 20px;
