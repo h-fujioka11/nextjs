@@ -37,6 +37,7 @@ const Introduce = props => {
              font-size: 2rem;
              line-height: 2;
              margin-bottom: 16px;
+             font-family: yu-mincho-pr6n, sans-serif;
            }
          }
          .m-introduce .m-introduce__inner {

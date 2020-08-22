@@ -22,6 +22,7 @@ const Conversation = (props) => {
           margin-bottom: 40px;
           @media screen and(max-width:1100px) {
             line-height: 2;
+            font-family: yu-mincho-pr6n, sans-serif;
           }
         }
         .m-conversation__img {

@@ -82,8 +82,9 @@ const Home = (props) => {
           font-size: 2.8rem;
           @media screen and(max-width:1100px) {
             font-size: 2rem;
-            line-height: 2;
+            line-height: 1.8;
             margin-bottom: 16px;
+            font-family: yu-mincho-pr6n, sans-serif;
           }
         }
         .sectionArea__inner p {

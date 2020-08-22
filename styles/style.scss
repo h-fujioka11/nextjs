@@ -179,6 +179,11 @@ body a {
   @include respond(sp) {
     padding-bottom: 40px;
   }
+  h1, h2 {
+    @include respond(sp) {
+      font-family: yu-mincho-pr6n, sans-serif;
+    }
+  }
   &__title {
     @include respond(sp) {
       @include fts(16,24);
