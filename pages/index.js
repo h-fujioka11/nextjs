@@ -8,7 +8,6 @@ import Link from "next/link";
 import "../styles/style.scss";
 import Heads from "../components/Atoms/Head";
 import WorkList from "../components/Atoms/WorkList";
-import SliderItem from "../components/Atoms/Slider_Item";
 const Home = (props) => {
   const Link_Style = {
     textDecoration: "underline",
@@ -30,12 +29,11 @@ const Home = (props) => {
       />
       <main>
         <Header />
-        <SliderItem />
         <SliderThumbnail />
         <div className={"sectionArea"}>
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
-              <h1 className={"sectionArea__title"}>UI設計・制作を​受託する個人事業主です</h1>
+              <h1 className={"sectionArea__title"}>デザイン設計・制作を​受託する個人事業主です</h1>
               <p style={{marginBottom: "32px"}}>私はスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門的な知識を生かし、サービス内でユーザーに提供する理想の体験を設計・スタイリングしていきます。</p>
               <p style={Link_Style}>
                 <Link href={"/about"}>
