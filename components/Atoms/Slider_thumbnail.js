@@ -30,7 +30,8 @@ class SliderThumbnail extends Component {
       display: "flex"
     }
     const ITEM_STYLE = {
-      minWidth: "320px"
+      minWidth: "320px",
+      height: "auto"
     }
     const SRC = this.state.urlData.map((value,index) => {
       return(

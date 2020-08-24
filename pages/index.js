@@ -8,8 +8,8 @@ import Link from "next/link";
 import "../styles/style.scss";
 import Heads from "../components/Atoms/Head";
 import WorkList from "../components/Atoms/WorkList";
+import SliderItem from "../components/Atoms/Slider_Item";
 const Home = (props) => {
-
   const Link_Style = {
     textDecoration: "underline",
   }
@@ -30,12 +30,13 @@ const Home = (props) => {
       />
       <main>
         <Header />
+        <SliderItem />
         <SliderThumbnail />
         <div className={"sectionArea"}>
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
               <h1 className={"sectionArea__title"}>UI設計・制作を​受託する個人事業主です</h1>
-              <p style={{marginBottom: "32px"}}>私はてスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門的な知識を生かしユーザーに提供するサービス中の理想の体験を設計・スタイリングしていきます。</p>
+              <p style={{marginBottom: "32px"}}>私はスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門的な知識を生かし、サービス内でユーザーに提供する理想の体験を設計・スタイリングしていきます。</p>
               <p style={Link_Style}>
                 <Link href={"/about"}>
                   <a>わたしについて</a>
@@ -51,7 +52,7 @@ const Home = (props) => {
               <div className={"flexArea"}>
                 <WorkList data={WorkData} />
               </div>
-              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用開発をはじめ、企業のコーポレートサイトなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり実装に関しても幅広く対応可能です。</p>
+              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用・開発をはじめ、企業のコーポレートサイトやスマートフォンアプリなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり、施策に対する実装に関しても幅広く対応可能です。</p>
               <p style={Link_Style}>
                 <Link href={"/works"}>
                   <a>実績をみる</a>

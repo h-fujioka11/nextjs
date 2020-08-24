@@ -35,7 +35,6 @@ const Kioi = [
   "/img/works/kioi/img03.png",
   "/img/works/kioi/img04.png"
 ]
-
 const Works = (props) => {
   return (
     <div className="container">
