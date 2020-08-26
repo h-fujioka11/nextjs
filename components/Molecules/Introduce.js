@@ -68,6 +68,10 @@ const Introduce = props => {
            border-radius: 50%;
          }
          .m-introduce__item dd {
+           line-height: 2.6;
+           @media screen and(min-width:1100px) {
+             margin-top: -12px;
+           }
            @media screen and(max-width:1100px) {
              font-size: 1.6rem;
              line-height: 2.2;
