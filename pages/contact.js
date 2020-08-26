@@ -93,8 +93,8 @@ const Contact = (props) => {
             action="https://api.staticforms.xyz/submit"
             className={classes.root}
             onSubmit={handleSubmit(onSubmit)}>
-            <Container maxWidth={"md"}>
-              <p style={{textAlign:"left", color: "#333", marginBottom: "24px", fontSize:"1.2rem", fontWeight: "bold"}}>入力内容は<span style={{color:"#ff0000"}}>すべて必須</span>です。</p>
+            <Container maxWidth={"sm"}>
+              <p style={{textAlign:"center", color: "#333", marginBottom: "24px", fontSize:"1.2rem", fontWeight: "bold"}}>入力内容は<span style={{color:"#ff0000"}}>すべて必須</span>です。</p>
               <Grid container spacing={2}>
                 <Grid item xs={12} className={classes.GridItem}>
                   <p className={classes.nameItem}>会社名・団体名<span className={classes.required}>（必須）</span></p>

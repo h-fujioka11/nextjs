@@ -20,6 +20,7 @@ const Conversation = (props) => {
         }
         .m-conversation__title {
           margin-bottom: 40px;
+          font-family: yu-mincho-pr6n, sans-serif;
           @media screen and(max-width:1100px) {
             line-height: 2;
             font-family: yu-mincho-pr6n, sans-serif;

@@ -78,12 +78,11 @@ const Home = (props) => {
         }
         .sectionArea__inner h1,
         .sectionArea__inner--archive h1 {
-          font-size: 2.8rem;
+          font-size: 2.6rem;
           @media screen and(max-width:1100px) {
             font-size: 2rem;
             line-height: 1.8;
             margin-bottom: 16px;
-            font-family: yu-mincho-pr6n, sans-serif;
           }
         }
         .sectionArea__inner p {
