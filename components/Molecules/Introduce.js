@@ -72,7 +72,7 @@ const Introduce = props => {
              margin-top: -12px;
            }
            @media screen and(max-width:1100px) {
-             font-size: 1.6rem;
+             font-size: 1.4rem;
              line-height: 2.2;
            }
          }
@@ -89,7 +89,6 @@ const Introduce = props => {
              line-height: 1.6;
            }
          }
-         
       `}</style>
     </div>
   )

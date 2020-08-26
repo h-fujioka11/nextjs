@@ -9,10 +9,12 @@ body {
   font-size: 16px;
   line-height: 2.8;
   text-align:  left;
-
   font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
   font-style: normal;
   color: #222;
+  @include respond(sp) {
+    font-size: 14px;
+  }
 }
 body a {
   color: $color-gray-3;
@@ -36,7 +38,8 @@ body a {
     @include respond(sp) {
       position: absolute;
       left: 20px;
-      width: 86px;
+      top: 12px;
+      width: 120px;
       z-index: 100;
     }
   }
@@ -243,7 +246,7 @@ body a {
     margin-bottom: 32px;
     @include respond(sp) {
       width: 100%;
-      @include fts(16,40);
+      @include fts(14,32);
       margin-bottom: 16px;
     }
   }
@@ -252,7 +255,7 @@ body a {
   }
   &__text li {
     @include respond(sp) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       line-height: 1.6;
       margin-bottom: 12px;
       position: relative;

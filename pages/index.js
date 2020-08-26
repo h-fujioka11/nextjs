@@ -89,7 +89,7 @@ const Home = (props) => {
           width: 60%;
           @media screen and(max-width:1000px) {
             width: 100%;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             line-height: 2.2;
           }
         }
@@ -143,8 +143,8 @@ const Home = (props) => {
          }
          .sectionWork__text li {
            @media screen and(max-width:1100px) {
-             font-size: 1.6rem;
-             line-height: 1.6;
+             font-size: 1.4rem;
+             line-height: 1.4;
              margin-bottom: 12px;
            }
          }
