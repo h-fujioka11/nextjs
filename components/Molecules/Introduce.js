@@ -16,7 +16,7 @@ const Introduce = props => {
             <dt>屋号</dt>
             <dd>藤岡造形デザイン</dd>
             <dt>所在地</dt>
-            <dd>〒154-0002 東京都世田谷区下馬</dd>
+            <dd>〒154-0002 東京都世田谷区</dd>
             <dt>事業内容</dt>
             <dd>グラフィックデザイン、コンピュータグラフィックの企画、立案、制作</dd>
           </dl>
@@ -37,7 +37,6 @@ const Introduce = props => {
              font-size: 2rem;
              line-height: 2;
              margin-bottom: 16px;
-             font-family: yu-mincho-pr6n, sans-serif;
            }
          }
          .m-introduce .m-introduce__inner {
