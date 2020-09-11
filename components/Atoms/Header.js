@@ -51,14 +51,9 @@ class Header extends Component {
     } else {
       return (
         <header className={"a-header"}>
-          <h1 className={"a-header__logo is-pc"}>
+          <h1 className={"a-header__logo"}>
             <Link href={"/"}>
               <a><img src={"/img/logo.svg"} /></a>
-            </Link>
-          </h1>
-          <h1 className={"a-header__logo is-sp"}>
-            <Link href={"/"}>
-              <a><img src={"/img/logo_sp.svg"} /></a>
             </Link>
           </h1>
           <div className={"a-header__btn js-menu_icon"} onClick={this.handleClick}>

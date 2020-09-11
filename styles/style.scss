@@ -28,13 +28,13 @@ body a {
     padding: 80px 0;
     align-items: center;
     padding: 40px;
-    font-family: yu-mincho-pr6n, sans-serif;
+    margin-bottom: 60px;
   }
   @include respond(sp) {
     position: relative;
   }
   &__logo {
-    width: 70px;
+    width: 90px;
     @include respond(sp) {
       position: absolute;
       left: 20px;
@@ -74,18 +74,18 @@ body a {
     @include respond(pc) {
       display: inline-block;
       margin-left: 80px;
-      @include fts(18,24);
     }
     @include respond(sp) {
       text-align: center;
       padding: 20px;
       border-bottom: 1px solid $color-gray-e;
-      font-weight: bold;
     }
   }
   &__nav a {
     color: $color-gray-3;
     @include transition-color;
+    font-weight: bold;
+    
   }
   &--secondary {
     @include respond(pc) {

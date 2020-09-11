@@ -14,7 +14,7 @@ const Introduce = props => {
           </dl>
           <dl className={"m-introduce__table"}>
             <dt>屋号</dt>
-            <dd>藤岡造形デザイン</dd>
+            <dd>edition</dd>
             <dt>所在地</dt>
             <dd>〒154-0002 東京都世田谷区</dd>
             <dt>事業内容</dt>
