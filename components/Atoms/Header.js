@@ -43,7 +43,7 @@ class Header extends Component {
           </h1>
           <h1 className={"a-header__logo is-sp"}>
             <Link href={"/"}>
-              <a><img src={"/img/logo_sp.svg"} /></a>
+              <a><img src={"/img/logo.svg"} /></a>
             </Link>
           </h1>
         </header>
