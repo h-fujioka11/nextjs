@@ -8,10 +8,11 @@ const Introduce = props => {
       <Fade bottom cascade>
         <section className={"m-introduce__inner"}>
           <h1 className={"m-introduce__title"}>わたしについて</h1>
+          <p className={"backgroundTitle"}><span>使命感を</span>もって<br />誠実に取り組みます。</p>
           <dl className={"m-introduce__item"}>
             <dt><img src={"/img/about/img01.png"} /></dt>
             <dd>スタートアップ・ウェブサービス企業を中心としたクライアントの「UIデザイン」「プロトタイプ制作」「フロントエンド実装」を提供します。ウェブサイトの改善提案やPDCA運用支援を行い、お客さまのウェブを活用したビジネス活動をサポートいたします。</dd>
-          </dl>
+          </dl> 
           <dl className={"m-introduce__table"}>
             <dt>屋号</dt>
             <dd>edition</dd>
@@ -26,7 +27,26 @@ const Introduce = props => {
       <style jsx>{`
          .m-introduce {
            background: #f1f1f1;
-           padding: 24px 24px 32px;
+           @media screen and(max-width:1100px) {
+            padding: 24px 24px 32px;
+           }
+         }
+         .m-introduce__inner .backgroundTitle {
+          font-size: 36px;
+          writing-mode: vertical-rl;
+          font-weight: 600;
+          line-height: 80px;
+          position: absolute;
+          left: 0;
+          top: 80px;
+          color: #333;
+          white-space: nowrap;
+          @media screen and(max-width:1100px) {
+            display: none;
+          }
+         }
+         .m-introduce__inner .backgroundTitle span {
+          color: #518ba2;
          }
          .m-introduce__title {
            font-size: 2.8rem;
@@ -40,10 +60,9 @@ const Introduce = props => {
            }
          }
          .m-introduce .m-introduce__inner {
+          position: relative;
            @media screen and(min-width:1100px) {
-             padding: 50px 0 100px 240px;
-             background: url("/img/top/intro_text02.png") 0 80px no-repeat;
-             background-size: 100px auto;
+             padding: 50px 0 100px 280px;
              width: 1100px;
              margin: 0 auto;
            }

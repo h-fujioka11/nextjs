@@ -38,8 +38,8 @@ body a {
     @include respond(sp) {
       position: absolute;
       left: 20px;
-      top: 12px;
-      width: 120px;
+      top: 10px;
+      width: 90px;
       z-index: 100;
     }
   }

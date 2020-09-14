@@ -40,6 +40,7 @@ const Home = (props) => {
                   <a>わたしについて</a>
                 </Link>
               </p>
+              <p className={"backgroundTitle"}><span>デザインで</span><br />サービスを主導する。</p>              
             </section>
           </Fade>
         </div>
@@ -77,6 +78,9 @@ const Home = (props) => {
         .sectionArea {
           background: #f1f1f1;
         }
+        .sectionArea__inner {
+          position: relative;
+        }
         .sectionArea__inner h1,
         .sectionArea__inner--archive h1 {
           font-size: 2.6rem;
@@ -103,8 +107,6 @@ const Home = (props) => {
             padding: 70px 0 140px;
             width: 880px;
             margin: 0 auto;
-            background: url("/img/top/intro_text.png") 90% 80px no-repeat;
-            background-size: 130px auto;
           }
         }
         .sectionWork .sectionArea__inner {
@@ -115,6 +117,23 @@ const Home = (props) => {
             padding: 24px 16px 40px;
             width: 100%;
           }
+         }
+         .sectionArea__inner .backgroundTitle {
+          font-size: 36px;
+          writing-mode: vertical-rl;
+          font-weight: 600;
+          line-height: 80px;
+          position: absolute;
+          right: 40px;
+          top: 80px;
+          color: #333;
+          white-space: nowrap;
+          @media screen and(max-width:1100px) {
+            display: none;
+          }
+         }
+         .sectionArea__inner .backgroundTitle span {
+          color: #518ba2;
          }
          .sectionWork .sectionArea__title {
           @media screen and(min-width:1100px) {
