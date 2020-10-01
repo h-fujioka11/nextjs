@@ -24,6 +24,7 @@ class Heads extends Component {
         <meta property="og:image" content={this.props.image} />
         <meta property="og:site_name" content={this.props.title} />
         <link rel="canonical" href={this.props.url} />
+        <script type="text/javascript" src="//webfont.fontplus.jp/accessor/script/fontplus.js?eLt8kT4ATAE%3D&box=IFkbEH~muqY%3D&aa=1&ab=2" charSet="utf-8"></script>
       </Head>
     )
   }
