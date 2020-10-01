@@ -118,12 +118,12 @@ const Home = (props) => {
           }
          }
          .sectionArea__inner .backgroundTitle {
-          font-size: 36px;
+          font-size: 54px;
           writing-mode: vertical-rl;
           font-weight: 600;
-          line-height: 80px;
+          line-height: 90px;
           position: absolute;
-          right: 40px;
+          right: 30px;
           top: 80px;
           color: #333;
           white-space: nowrap;
