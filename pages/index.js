@@ -14,7 +14,7 @@ const Home = (props) => {
   }
   const WorkData = [
     "/img/works/full/img01.png",
-    "/img/works/food/img01.png",
+    "/img/works/full/img02.png",
     "/img/works/akasaka/img01.png",
     "/img/works/kioi/img01.png"
   ]
@@ -40,7 +40,7 @@ const Home = (props) => {
                   <a>わたしについて</a>
                 </Link>
               </p>
-              <p className={"backgroundTitle"}><span>デザインで</span><br />サービスを主導する。</p>              
+              <p className={"backgroundTitle"}><span>デザインで</span><br />価値を形に変える。</p>              
             </section>
           </Fade>
         </div>
@@ -61,11 +61,12 @@ const Home = (props) => {
             <section className={"sectionArea__inner--archive"}>
               <h1 className={"sectionArea__title"}>直近の運用・取引実績</h1>
               <ul className={"sectionWork__text"}>
-                <li>Find Job! (株式会社ミクシィ)</li>
-                <li>SKILAS DANCE (株式会社ミクシィ)</li>
-                <li>シェアクラ（データサイエンスプロフェッショナル株式会社）</li>
+                <li>株式会社ミクシィ</li>
+                <li>ストリートアカデミー株式会社</li>
                 <li>レバレジーズ株式会社</li>
                 <li>HWC (ホームワーカーズコミュニティ)</li>
+                <li>シェアクラ（宅配型トランクルーム）</li>
+                <li>以上一部抜粋</li>
               </ul>
             </section>
           </Fade>
@@ -118,7 +119,7 @@ const Home = (props) => {
           }
          }
          .sectionArea__inner .backgroundTitle {
-          font-size: 54px;
+          font-size: 44px;
           writing-mode: vertical-rl;
           font-weight: 600;
           line-height: 90px;

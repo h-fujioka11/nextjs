@@ -54,13 +54,13 @@ const Works = (props) => {
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
               <h2 className={"title"} style={WorkTitle}>直近のサービス運用・取引実績</h2>
-              <ul className={"o-static__text"}>
-                <li>Find Job! (株式会社ミクシィ)</li>
-                <li>SKILAS DANCE (株式会社ミクシィ)</li>
-                <li>ストリートアカデミー (ストリートアカデミー株式会社)</li>
-                <li>シェアクラ（データサイエンスプロフェッショナル株式会社）</li>
+             <ul className={"sectionWork__text"}>
+                <li>株式会社ミクシィ</li>
+                <li>ストリートアカデミー株式会社</li>
                 <li>レバレジーズ株式会社</li>
                 <li>HWC (ホームワーカーズコミュニティ)</li>
+                <li>シェアクラ（宅配型トランクルーム）</li>
+                <li>以上一部抜粋</li>
               </ul>
             </section>
           </Fade>
@@ -69,13 +69,6 @@ const Works = (props) => {
               <h2 className={"title"}>フルスロットル</h2>
               <p className={"text"}>https://www.fullthrottle.co.jp/</p>
               <WorkList data={Full} />
-            </section>
-          </Fade>
-          <Fade bottom cascade>
-            <section className={"o-static__inner"}>
-              <h2 className={"title"}>デリステーション</h2>
-              <p className={"text"}>https://deli-station.jp/</p>
-              <WorkList data={Food} />
             </section>
           </Fade>
           <Fade bottom cascade>
@@ -94,13 +87,26 @@ const Works = (props) => {
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
-              <h2 className={"title"}>その他（公開準備中案件）</h2>
+              <h2 className={"title"}>デリステーション</h2>
+              <p className={"text"}>https://deli-station.jp/</p>
+              <WorkList data={Food} />
+            </section>
+          </Fade>
+          <Fade bottom cascade>
+            <section className={"o-static__inner"}>
+              <h2 className={"title"}>その他</h2>
               <p className={"text"}>other</p>
-              <div className={"m-flex--4"}>
+              <div className={"m-flex--4 mb--40"}>
                 <img src={"/img/works/parley01.png"}/>
                 <img src={"/img/works/parley02.png"}/>
                 <img src={"/img/works/parley03.png"}/>
                 <img src={"/img/works/parley04.png"}/>
+              </div>
+              <div className={"m-flex--4"}>
+                <img src={"/img/works/skilas01.png"}/>
+                <img src={"/img/works/skilas02.png"}/>
+                <img src={"/img/works/skilas03.png"}/>
+                <img src={"/img/works/skilas04.png"}/>
               </div>
             </section>
           </Fade>
@@ -127,6 +133,9 @@ const Works = (props) => {
         .o-static__inner .text {
           font-size: 1.4rem;
           opacity: .6!important;
+        }
+        .mb--40 {
+          margin-bottom:40px;
         }
       `}</style>
     </div>
