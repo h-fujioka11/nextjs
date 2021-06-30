@@ -33,14 +33,14 @@ const Home = (props) => {
         <div className={"sectionArea"}>
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
-              <h1 className={"sectionArea__title"}>デザイン設計・制作を​受託する個人事業主です</h1>
-              <p style={{marginBottom: "32px"}}>私はスマートフォンアプリやウェブのUIデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、デザイン分野の専門的な知識を生かし、サービス内でユーザーに提供する理想の体験を設計・スタイリングしていきます。</p>
+              <h1 className={"sectionArea__title"}>フロントデザインと制作を​受託する個人事業主です</h1>
+              <p style={{marginBottom: "32px"}}>私はスマートフォンアプリやウェブのUI・フロントデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、UI・フロントデザイン分野の専門的な知識を生かし、サービス内でユーザーに提供する理想の体験を設計・スタイリングしていきます。</p>
               <p style={Link_Style}>
                 <Link href={"/about"}>
                   <a>わたしについて</a>
                 </Link>
               </p>
-              <p className={"backgroundTitle"}><span>デザインで</span><br />価値を形に変える。</p>              
+              <p className={"backgroundTitle"}><span>フロント実装も含め</span><br />お任せください。</p>              
             </section>
           </Fade>
         </div>
@@ -51,7 +51,7 @@ const Home = (props) => {
               <div className={"flexArea"}>
                 <WorkList data={WorkData} />
               </div>
-              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用・開発をはじめ、企業のコーポレートサイトやスマートフォンアプリなどデザイン提供は多岐に渡ります。デザイン・設計の他にもエンジニアとの協業経験も豊富にあり、施策に対する実装に関しても幅広く対応可能です。</p>
+              <p style={{marginBottom:"24px"}} className={"sectionWork__text"}>ウェブサービスの運用・開発をはじめ、企業のコーポレートサイトやスマートフォンアプリなどフロントデザイン提供は多岐に渡ります。UIデザイン・設計の他にもエンジニアとの協業経験も豊富にあり、施策に対する実装に関しても幅広く対応可能です。</p>
               <p style={Link_Style}>
                 <Link href={"/works"}>
                   <a>実績をみる</a>
@@ -62,6 +62,7 @@ const Home = (props) => {
               <h1 className={"sectionArea__title"}>直近の運用・取引実績</h1>
               <ul className={"sectionWork__text"}>
                 <li>株式会社ミクシィ</li>
+                <li>ミイダス株式会社</li>
                 <li>ストリートアカデミー株式会社</li>
                 <li>レバレジーズ株式会社</li>
                 <li>HWC (ホームワーカーズコミュニティ)</li>
@@ -119,7 +120,7 @@ const Home = (props) => {
           }
          }
          .sectionArea__inner .backgroundTitle {
-          font-size: 44px;
+          font-size: 36px;
           writing-mode: vertical-rl;
           font-weight: 600;
           line-height: 90px;
