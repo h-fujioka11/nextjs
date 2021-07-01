@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 2.8;
   text-align:  left;
-  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  font-family:  "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-style: normal;
   color: #222;
   @include respond(sp) {
@@ -199,7 +199,7 @@ body a {
     @include respond(pc) {
       @include fts(30,56);
       padding: 40px 0;
-      margin-bottom: 32px;
+      margin-bottom: 40px!important;
     }
     position: relative;
     font-family: sans-serif;
@@ -233,7 +233,7 @@ body a {
   &__inner .title {
     @include fts(24,48);
     @include respond(pc) {
-      padding-bottom: 16px;
+      padding-bottom: 24px;
     }
     @include respond(sp) {
       @include fts(18,32);

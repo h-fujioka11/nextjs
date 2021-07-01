@@ -22,7 +22,7 @@ const Home = (props) => {
     <div className="container">
       <Heads
         title={'トップページ | UIデザイン'}
-        description={'デジタルサービスのUI画面の制作支援を​受託する個人事業主です'}
+        description={'デジタルサービスのフロントデザイン制作を受託する個人事業主です'}
         keyword={'UIデザイン, ウェブデザイン'}
         image={'https://editioninc.tokyo/img.jpg'}
         url={'https://editioninc.tokyo'}
@@ -33,8 +33,8 @@ const Home = (props) => {
         <div className={"sectionArea"}>
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
-              <h1 className={"sectionArea__title"}>フロントデザインと制作を​受託する個人事業主です</h1>
-              <p style={{marginBottom: "32px"}}>私はスマートフォンアプリやウェブのUI・フロントデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対し、UI・フロントデザイン分野の専門的な知識を生かし、サービス内でユーザーに提供する理想の体験を設計・スタイリングしていきます。</p>
+              <h1 className={"sectionArea__title"}>フロントデザイン制作を受託する個人事業主です</h1>
+              <p style={{marginBottom: "32px"}}>スマートフォンアプリやウェブのUI・フロントエンドデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対して、UI・フロントエンドデザイン分野の専門的な知識を生かした設計・スタイリングを展開し、サービスとユーザーを繋ぐ理想の体験を提供したいと思っています。</p>
               <p style={Link_Style}>
                 <Link href={"/about"}>
                   <a>わたしについて</a>
@@ -105,7 +105,7 @@ const Home = (props) => {
             width: 100%;
           }
           @media screen and(min-width:1100px) {
-            padding: 70px 0 140px;
+            padding: 80px 0 140px;
             width: 880px;
             margin: 0 auto;
           }
@@ -139,7 +139,7 @@ const Home = (props) => {
          }
          .sectionWork .sectionArea__title {
           @media screen and(min-width:1100px) {
-            padding-bottom: 16px;
+            padding-bottom: 24px;
           }
          }
          .sectionWork .sectionArea__inner--archive {

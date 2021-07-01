@@ -8,7 +8,7 @@ const Introduce = props => {
       <Fade bottom cascade>
         <section className={"m-introduce__inner"}>
           <h1 className={"m-introduce__title"}>わたしについて</h1>
-          <p className={"backgroundTitle"}><span>使命感を</span>もって<br />誠実に取り組みます。</p>
+          <p className={"backgroundTitle"}><span>使命感をもって</span><br />誠実に取り組みます。</p>
           <dl className={"m-introduce__item"}>
             <dt><img src={"/img/about/img01.png"} /></dt>
             <dd>スタートアップ・ウェブサービス企業を中心としたクライアントの「UIデザイン」「プロトタイプ制作」「フロントエンド実装」を提供します。ウェブサイトの改善提案やPDCA運用支援を行い、お客さまのウェブを活用したビジネス活動をサポートいたします。</dd>
@@ -52,7 +52,7 @@ const Introduce = props => {
          .m-introduce__title {
            font-size: 2.8rem;
            @media screen and(min-width:1100px) {
-             padding-bottom: 16px;
+             padding-bottom: 24px;
            }
            @media screen and(max-width:1100px) {
              font-size: 2rem;
