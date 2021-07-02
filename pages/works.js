@@ -56,7 +56,7 @@ const Works = (props) => {
               <h2 className={"title"} style={WorkTitle}>直近のサービス運用・取引実績</h2>
              <ul className={"sectionWork__text"}>
                 <li>株式会社ミクシィ</li>
-                <li>ミイダス株式会社</li>
+                <li>パーソルキャリア</li>
                 <li>ストリートアカデミー株式会社</li>
                 <li>レバレジーズ株式会社</li>
                 <li>HWC (ホームワーカーズコミュニティ)</li>
