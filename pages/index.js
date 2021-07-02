@@ -22,7 +22,7 @@ const Home = (props) => {
     <div className="container">
       <Heads
         title={'トップページ | UIデザイン'}
-        description={'デジタルサービスのフロントデザイン制作を受託する個人事業主です'}
+        description={'フロントデザイン制作を受託する個人事業主です'}
         keyword={'UIデザイン, ウェブデザイン'}
         image={'https://editioninc.tokyo/img.jpg'}
         url={'https://editioninc.tokyo'}
