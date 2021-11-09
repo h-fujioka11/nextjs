@@ -41,7 +41,6 @@ const Introduce = props => {
           top: 80px;
           color: #333;
           white-space: nowrap;
-          font-family: "FOT-筑紫Aオールド明朝 Pr6 R";
           @media screen and(max-width:1100px) {
             display: none;
           }

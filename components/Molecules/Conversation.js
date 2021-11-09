@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Fade from 'react-reveal/Fade';
+
 const Conversation = (props) => {
   return (
     <Fade bottom cascade>
