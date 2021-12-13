@@ -8,7 +8,8 @@ import Link from "next/link";
 import Conversation from "../../components/Molecules/Conversation";
 import Introduce from "../../components/Molecules/Introduce";
 import Heads from "../../components/Atoms/Head";
-const About = (props) => {
+
+const AboutDetail = (props) => {
   return (
     <div className="container">
       <Heads
@@ -35,7 +36,7 @@ const About = (props) => {
                 Coffee（スターバックス）CMキャンペーンサイトのデザイン・モーション制作にアシスタントデザイナーとして関わる。
               </p>
               <p>
-                退社後、都内数社の制作プロダクション・スタートアップ企業に在籍し、アパレルブランド、大型SCサイトなどのブランドリニューアルに関わりました。
+                退社後、都内数社の制作プロダクション・スタートアップ企業に在籍し、アパレルブランド、大型SCサイトなどのブランドサイトリニューアルに関わりました。
               </p>
               <p>
                 2016年にフリーランスへ。現在までメガベンチャー・スタートアップ企業にフリーランスとして参画中。
@@ -102,4 +103,5 @@ const About = (props) => {
     </div>
   );
 };
-export default About;
+
+export default AboutDetail;
