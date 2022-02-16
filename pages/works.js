@@ -55,6 +55,22 @@ const Works = (props) => {
           </Flip>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
+              <h2 className={"title"} style={WorkTitle}>直近のサービス運用・取引実績</h2>
+              <ul className={"sectionWork__text"}>
+                <li>株式会社ミクシィ</li>
+                <li>ストリートアカデミー株式会社</li>
+                <li>レバレジーズ株式会社</li>
+                <li>株式会社ネクイノ</li>
+                <li>シェアクラ（宅配型トランクルーム）</li>
+                <li>株式会社日宣</li>
+                <li>株式会社松森</li>
+                <li>HWC (ホームワーカーズコミュニティ)</li>
+                <li>以上一部抜粋</li>
+              </ul>
+            </section>
+          </Fade>
+          <Fade bottom cascade>
+            <section className={"o-static__inner"}>
               <h2 className={"title"}>フルスロットル</h2>
               <p className={"text"}>https://www.fullthrottle.co.jp/</p>
               <WorkList data={Full} />

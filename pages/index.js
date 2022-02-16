@@ -71,6 +71,20 @@ const Home = (props) => {
                 </Link>
               </p>
             </section>
+            <section className={"sectionArea__inner--archive"}>
+              <h1 className={"sectionArea__title"}>直近の運用・取引実績</h1>
+              <ul className={"sectionWork__text"}>
+                <li>株式会社ミクシィ</li>
+                <li>ストリートアカデミー株式会社</li>
+                <li>レバレジーズ株式会社</li>
+                <li>株式会社ネクイノ</li>
+                <li>シェアクラ（宅配型トランクルーム）</li>
+                <li>株式会社日宣</li>
+                <li>株式会社松森</li>
+                <li>HWC (ホームワーカーズコミュニティ)</li>
+                <li>以上一部抜粋</li>
+              </ul>
+            </section>
           </Fade>
         </div>
         <Introduce />
