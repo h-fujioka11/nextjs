@@ -1,5 +1,6 @@
 const withSass = require('@zeit/next-sass');
 module.exports = withSass({
+  webpack5: false,
   exportPathMap: async function() {
     return {
       '/': { page: '/' },

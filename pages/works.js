@@ -92,8 +92,8 @@ const Works = (props) => {
           </Fade>
           <Fade bottom cascade>
             <section className={"o-static__inner"}>
-              <h2 className={"title"}>デリステーション</h2>
-              <p className={"text"}>https://deli-station.jp/</p>
+              <h2 className={"title"}>デリステーションX</h2>
+              <p className={"text"}>https://deli-station.jp/kitchen</p>
               <WorkList data={Food} />
             </section>
           </Fade>
