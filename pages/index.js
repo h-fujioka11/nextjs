@@ -22,7 +22,7 @@ const Home = (props) => {
     <div className="container">
       <Heads
         title={"トップページ | UIデザイン"}
-        description={"フロントデザイン制作を受託する個人事業主です"}
+        description={"プロダクトデザイン制作を受託する個人事業主です"}
         keyword={"UIデザイン, ウェブデザイン"}
         image={"https://editioninc.tokyo/img.jpg"}
         url={"https://editioninc.tokyo"}
@@ -34,7 +34,7 @@ const Home = (props) => {
           <Fade bottom cascade>
             <section className={"sectionArea__inner"}>
               <h1 className={"sectionArea__title"}>
-                フロントデザイン制作を受託する個人事業主です
+                プロダクトデザイン制作を受託する個人事業主です
               </h1>
               <p style={{ marginBottom: "32px" }}>
                 スマートフォンアプリやウェブのUI・フロントエンドデザインを提供している個人事業主です。ウェブサービスの改善や新規事業の立ち上げに対して、UI・フロントエンドデザイン分野の専門的な知識を生かした設計・スタイリングを展開し、サービスとユーザーを繋ぐ理想の体験を提供したいと思っています。
@@ -63,7 +63,7 @@ const Home = (props) => {
                 style={{ marginBottom: "24px" }}
                 className={"sectionWork__text"}
               >
-                ウェブサービスの運用・開発をはじめ、企業のコーポレートサイトやスマートフォンアプリなどフロントデザイン提供は多岐に渡ります。UIデザイン・設計の他にもエンジニアとの協業経験も豊富にあり、施策に対する実装に関しても幅広く対応可能です。
+                ウェブサービスの運用・開発をはじめ、企業のコーポレートサイトやスマートフォンアプリなどプロダクトデザイン提供は多岐に渡ります。UIデザイン・設計の他にもエンジニアとの協業経験も豊富にあり、施策に対する実装に関しても幅広く対応可能です。
               </p>
               <p style={Link_Style}>
                 <Link href={"/works"}>
@@ -77,7 +77,6 @@ const Home = (props) => {
                 <li>株式会社ミクシィ</li>
                 <li>ストリートアカデミー株式会社</li>
                 <li>レバレジーズ株式会社</li>
-                <li>株式会社ネクイノ</li>
                 <li>シェアクラ（宅配型トランクルーム）</li>
                 <li>株式会社日宣</li>
                 <li>株式会社松森</li>
